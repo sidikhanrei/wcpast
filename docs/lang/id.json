@@ -1,0 +1,89 @@
+{
+    "login": {
+        "title": "Otorisasi",
+        "desc": "Silahkan Masukkan Username dan Password Anda",
+        "email": {
+            "label": "Username / Email",
+            "placeholder": "Enter Username",
+            "required": "Username is required",
+            "valid": "Please enter a valid username"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter Password",
+            "required": "Password is required"
+        },
+        "hp": {
+            "label": "Whatsapp Number",
+            "placeholder": "Insert WA Number"
+        },
+        "kode": {
+            "label": "Verification Code",
+            "placeholder": "XXXX"
+        },
+        "button": {
+            "login": "MASUK",
+            "verify": "KIRIM KODE VERIFIKASI",
+            "resend": "Kirim Ulang Kode Verifikasi",
+            "countdown": "Kirim lagi dalam",
+            "second": "d"
+        },
+        "or": "Atau",
+        "alert": {
+            "verify": {
+                "title": "Verifikasi Sukses!",
+                "msg": "Selamat datang di Web WA Chat Pro"
+            }
+        }
+    },
+    
+    "instance": {
+        "title1": "Whatsapp Chat Professional Instances",
+        "title2": "Pengelolaan Instance dan Nomor Whatsapp Anda",
+        "description": "Instance menggunakan Whatsapp Web untuk mengintegrasikan WAChatPro dengan Whatsapp. Silahkan buat dan hubungkan Instance dengan scan QRCode melalui aplikasi Whatsapp official.",
+        "cannot_use": "Belum aktif, silahkan aktifkan lisensi untuk dapat menjalankan Instance ini.",
+        "cannot_info": "Anda membutuhkan lisensi untuk dapat menggunakan Instance ini. Silahkan lakukan pembelian Lisensi melalui Playstore.",
+        "running": "Instance sedang berjalan",
+        "expired": "Lisensi Berakhir",
+        "empty": {
+            "title": "Belum Ada Instance",
+            "desc": "Silahkan klik Buat Instance Baru untuk dapat mengintegrasikan Whatsapp dengan WAChatPro."
+        },
+        "unlicensed": {
+            "number": "Belum berjalan",
+            "name": "Silahkan jalankan Instance"
+        },
+        "button": {
+            "create": "Buat Instance Baru"
+        },
+        "alert": {
+            "create": {
+                "title": "Pembuatan Instance Gagal?",
+                "html": "<div>Anda tidak dapat menambahkan instance baru</div><div class='mt-3'>Ada 1 Instance yang masih belum memiliki lisensi.</div>"
+            },
+            "success": {
+                "title": "Berhasil",
+                "html": "Instance baru telah berhasil dibuat"
+            },
+            "stop": {
+                "title": "Stop Instance?",
+                "html": "Apakah Anda yakin ingin menghentikan Instance?<br>Semua fitur yang diatur untuk Instance ini akan berhenti.",
+                "ok": "Stop",
+                "cancel": "Tetap Jalankan Instance"
+            },
+            "delete": {
+                "title": "Hapus Instance?",
+                "html": "Apakah Anda yakin ingin menghapus Instance Ini?",
+                "ok": "Hapus",
+                "cancel": "Batalkan"
+            }
+        }
+    },
+
+    "contact": {
+        "menu": {
+            "toGroup": "Tambahkan ke Group Kontak",
+            "sendMessage": "Kirim Pesan Whatsapp"
+        }
+    }
+}

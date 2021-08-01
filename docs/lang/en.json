@@ -1,0 +1,89 @@
+{
+    "login": {
+        "title": "Authorization",
+        "desc": "Please enter your username and password",
+        "email": {
+            "label": "Username / Email",
+            "placeholder": "Enter Username",
+            "required": "Username is required",
+            "valid": "Please enter a valid username"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter Password",
+            "required": "Password is required"
+        },
+        "hp": {
+            "label": "Whatsapp Number",
+            "placeholder": "Insert WA Number"
+        },
+        "kode": {
+            "label": "Verification Code",
+            "placeholder": "XXXX"
+        },
+        "button": {
+            "login": "SIGN IN",
+            "verify": "SEND VERIFICATION CODE",
+            "resend": "Resend Verification Code",
+            "countdown": "Resend Code in",
+            "second": "s"
+        },
+        "or": "OR",
+        "alert": {
+            "verify": {
+                "title": "Verification Success!",
+                "msg": "Welcome to WA Chat Pro web Version"
+            }
+        }
+    },
+    
+    "instance": {
+        "title1": "Whatsapp Chat Professional Instances",
+        "title2": "Control all your Instance Easily",
+        "description": "Instance is using Whatsapp Web to Integrate WAChat pro with Whatsapp. Please create and connect the instance with your Whatsapp using QRCode Scan",
+        "cannot_use": "Instance unlicensed, please buy a license to run this instance",
+        "cannot_info": "You need a license to use this Instance. Please buy a license for this Instance.",
+        "running": "Instance is running",
+        "expired": "License Expired",
+        "empty": {
+            "title": "No Instance Available",
+            "desc": "Please Create Instance to Integrate Whatsapp with WAChatPro"
+        },
+        "unlicensed": {
+            "number": "Never Started",
+            "name": "Start Instance First"
+        },
+        "button": {
+            "create": "Create New Instance"
+        },
+        "alert": {
+            "create": {
+                "title": "Create Failed?",
+                "html": "<div>You can not add another new instance</div><div class='mt-3'>You have 1 Unlicenced Instance.</div>"
+            },
+            "success": {
+                "title": "Create Success",
+                "html": "New Instance Created Successfully"
+            },
+            "stop": {
+                "title": "Stop Instance?",
+                "html": "Are you sure to stop this instance?<br><br>All features will be unavailable for this Instance.",
+                "ok": "Stop",
+                "cancel": "Keep Running"
+            },
+            "delete": {
+                "title": "Delete Instance?",
+                "html": "Delete this unlicensed Instance?",
+                "ok": "Delete",
+                "cancel": "Cancel"
+            }
+        }
+    },
+
+    "contact": {
+        "menu": {
+            "toGroup": "Insert to Group Contacts",
+            "sendMessage": "Send Whatsapp Message"
+        }
+    }
+}
