@@ -85,5 +85,115 @@
             "toGroup": "Insert to Group Contacts",
             "sendMessage": "Send Whatsapp Message"
         }
+    },
+
+    "broadcast": {
+        "empty": {
+            "title": "No Broadcast List",
+            "body": "Please click button bellow to create a New",
+            "body2": "Whatsapp Broadcast",
+            "btn": "Create Broadcast"
+        },
+        "menu": {
+            "create": "Create Broadcast",
+            "target": "Broadcast Target"
+        },
+        "form": {
+            "title": "Please fill form bellow to create Whatsapp Broadcast",
+            "select_instance": "Select Instance / number",
+            "no_instance": "No Instance, Please Create",
+            "schedule": {
+                "label": "Broadcast Schedule",
+                "v1": "Send Now",
+                "v2": "Scheduled Broadcast",
+                "set": "Set Schedule",
+                "setInfo": "Select Time",
+                "delay": "Delay Timer",
+                "delay1": "Smart Delay (<em>recommended</em>)",
+                "delay2": "Manual Timer",
+                "delayInfo": "Smart delay will only send when contact / target is online"
+            },
+            "delay": {
+                "t1": "Delay per message",
+                "t1_info": "x Seconds",
+                "t2": "Rest every (minutes)",
+                "t3": "Rest for (minutes)"
+            },
+            "target": {
+                "title": "Select Broadcast Target",
+                "ok": "Select",
+                "cancel": "Close",
+                "noTarget": "No Target List",
+                "create": "Create New Target List"
+            },
+            "content": {
+                "title": "Text Messages"
+            },
+            "button": "Create Broadcast",
+            "button_simpan": "Save Broadcast",
+            "alert": {
+                "target": {
+                    "header": "Target Empty",
+                    "msg": "Please select Broadcast Target, or Create a New Target"
+                },
+                "text": {
+                    "header": "Text Empty",
+                    "msg": "Please define text message to create broadcast process"
+                }
+            }
+        },
+        "list": {
+            "title": "Create Target List",
+            "selected": "Contacts Selected",
+            "info": "Please define your List Name",
+            "label": "List Name",
+            "searchPlaceholder": "Search Contact",
+            "btnFooter": "Select Contact",
+            "btnFooter2": "Save List"
+        },
+
+        "detail": {
+            "title": "Broadcast Detail",
+            "create_date": "Create Date",
+            "finish_date": "Finish Date",
+            "text_msg": "Text Message",
+            "view_more": "View More",
+            "view_less": "View Less",
+            "delay": {
+                "label": "Delay Timer",
+                "delay1": "Smart Delay",
+                "delay2": "Manual Timer"
+            },
+            "target": {
+                "label": "Broadcast Target",
+                "manage": "Manage Target List",
+                "contacts": "contacts"
+            },
+            "status": {
+                "finish": "Finish",
+                "progress": "In Progress",
+                "wait": "Scheduled run "
+            },
+            "list": {
+                "label": "Target List"
+            },
+            "delete": {
+                "header": "Please Confirm!",
+                "message": "Are you sure to delete Broadcast Data?",
+                "cancel": "Cancel",
+                "ok": "Delete"
+            },
+            "stop": {
+                "header": "Please Confirm!",
+                "message": "Are you sure to stop Broadcast process?",
+                "cancel": "Cancel",
+                "ok": "STOP"
+            },
+            "fab": {
+                "edit": "Edit Broadcast",
+                "duplicate": "Duplicate",
+                "delete": "Delete"
+            }
+        }
     }
 }

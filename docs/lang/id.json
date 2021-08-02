@@ -85,5 +85,115 @@
             "toGroup": "Tambahkan ke Group Kontak",
             "sendMessage": "Kirim Pesan Whatsapp"
         }
+    },
+
+    "broadcast": {
+        "empty": {
+            "title": "Belum ada data broadcast",
+            "body": "Silahkan klik tombol berikut ini untuk membuat",
+            "body2": "Pesan Broadcast",
+            "btn": "Buat Broadcast"
+        },
+        "menu": {
+            "create": "Buat Broadcast",
+            "target": "Kelola Target"
+        },
+        "form": {
+            "title": "Silahkan isi form berikut ini untuk membuat Whatsapp Broadcast",
+            "select_instance": "Pilih Instance / Nomor Whatsapp",
+            "no_instance": "Tidak Ada Instance, Silahkan buat Instance",
+            "schedule": {
+                "label": "Jadwal Broadcast",
+                "v1": "Kirim Sekarang",
+                "v2": "Broadcast Terjadwal",
+                "set": "Jadwal Pengiriman",
+                "setInfo": "Pilih Waktu Pengiriman",
+                "delay": "Jeda Pengiriman",
+                "delay1": "Jeda Pintar (<em>direkomendasikan</em>)",
+                "delay2": "Jeda Manual",
+                "delayInfo": "Jeda Pintar hanya akan mengirimkan broadcast ketika kontak / target tujuan sedang online / aktif."
+            },
+            "delay": {
+                "t1": "Jeda Pengiriman",
+                "t1_info": "x detik",
+                "t2": "Jeda Setiap (menit)",
+                "t3": "Jeda selama (menit)"
+            },
+            "target": {
+                "title": "Pilih Target Broadcast",
+                "ok": "Pilih",
+                "cancel": "Batal",
+                "noTarget": "Tidak Ada Target List",
+                "create": "Buat Target Broadcast"
+            },
+            "content": {
+                "title": "Isi Pesan"
+            },
+            "button": "Buat Broadcast",
+            "button_simpan": "Simpan Broadcast",
+            "alert": {
+                "target": {
+                    "header": "Target Kosong",
+                    "msg": "Silahkan pilih Broadcast Target, atau buat Target Baru"
+                },
+                "text": {
+                    "header": "Isi Pesan Kosong",
+                    "msg": "Silahkan tentukan isi pesan untuk membuat proses Broadcast"
+                }
+            }
+        },
+        "list": {
+            "title": "Buat Target Broadcast",
+            "selected": "Kontak terpilih",
+            "info": "Masukkan Nama Target Broadcast",
+            "label": "Nama Target",
+            "searchPlaceholder": "Cari Kontak",
+            "btnFooter": "Pilih Kontak",
+            "btnFooter2": "Simpan Target"
+        },
+        
+        "detail": {
+            "title": "Detail Broadcast",
+            "create_date": "Dibuat Tanggal",
+            "finish_date": "Telah Selesai Pada",
+            "text_msg": "Isi Pesan Broadcast",
+            "view_more": "Lihat selengkapnya",
+            "view_less": "Tampilkan lebih sedikit",
+            "delay": {
+                "label": "Jenis Jeda Broadcast",
+                "delay1": "Jeda Pintar",
+                "delay2": "Jeda Manual"
+            },
+            "target": {
+                "label": "Target Broadcast",
+                "manage": "Daftar Target Broadcast",
+                "contacts": "kontak"
+            },
+            "status": {
+                "finish": "Selesai",
+                "progress": "Dalam Proses",
+                "wait": "Dijadwalkan pada "
+            },
+            "list": {
+                "label": "Daftar Target"
+            },
+            "delete": {
+                "header": "Mohon Konfirmasi!",
+                "message": "Apakah Anda yakin untuk menghapus data ini?",
+                "cancel": "Tidak",
+                "ok": "Ya, Hapus"
+            },
+            "stop": {
+                "header": "Mohon Konfirmasi!",
+                "message": "Apakah Anda yakin ingin menghentikan proses Broadcast?",
+                "cancel": "Tidak",
+                "ok": "Stop Broadcast"
+            },
+            "fab": {
+                "edit": "Edit Broadcast",
+                "duplicate": "Duplikat",
+                "delete": "Hapus"
+            }
+        }
     }
 }
