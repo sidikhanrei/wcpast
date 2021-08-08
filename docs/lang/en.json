@@ -101,7 +101,7 @@
         "form": {
             "title": "Please fill form bellow to create Whatsapp Broadcast",
             "select_instance": "Select Instance / number",
-            "no_instance": "No Instance, Please Create",
+            "no_instance": "No Instance, Please Create an Instance to create and run Broadcast Process",
             "schedule": {
                 "label": "Broadcast Schedule",
                 "v1": "Send Now",
@@ -116,8 +116,11 @@
             "delay": {
                 "t1": "Delay per message",
                 "t1_info": "x Seconds",
+                "t1_suffix": "seconds",
                 "t2": "Rest every (minutes)",
-                "t3": "Rest for (minutes)"
+                "t2_suffix": "minutes",
+                "t3": "Rest for (minutes)",
+                "t3_suffix": "minutes"
             },
             "target": {
                 "title": "Select Broadcast Target",
@@ -131,6 +134,8 @@
             },
             "button": "Create Broadcast",
             "button_simpan": "Save Broadcast",
+            "button_send": "Send Broadcast",
+            "button_schedule": "Save Scheduled Broadcast",
             "alert": {
                 "target": {
                     "header": "Target Empty",
@@ -192,7 +197,8 @@
             "fab": {
                 "edit": "Edit Broadcast",
                 "duplicate": "Duplicate",
-                "delete": "Delete"
+                "delete": "Delete",
+                "stop": "Stop"
             }
         }
     }

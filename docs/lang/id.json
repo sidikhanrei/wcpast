@@ -116,8 +116,11 @@
             "delay": {
                 "t1": "Jeda Pengiriman",
                 "t1_info": "x detik",
+                "t1_suffix": "detik",
                 "t2": "Jeda Setiap (menit)",
-                "t3": "Jeda selama (menit)"
+                "t2_suffix": "menit",
+                "t3": "Jeda selama (menit)",
+                "t3_suffix": "menit"
             },
             "target": {
                 "title": "Pilih Target Broadcast",
@@ -131,6 +134,8 @@
             },
             "button": "Buat Broadcast",
             "button_simpan": "Simpan Broadcast",
+            "button_send": "Kirim Broadcast",
+            "button_schedule": "Simpan Broadcast Terjadwal",
             "alert": {
                 "target": {
                     "header": "Target Kosong",
@@ -192,7 +197,8 @@
             "fab": {
                 "edit": "Edit Broadcast",
                 "duplicate": "Duplikat",
-                "delete": "Hapus"
+                "delete": "Hapus",
+                "stop": "Stop Broadcast"
             }
         }
     }
