@@ -201,5 +201,74 @@
                 "stop": "Stop Broadcast"
             }
         }
+    },
+
+    "ar": {
+        "title1": "Whatsapp Chat Professional Autoreply",
+        "title2": "Balasan Otomatis Whatsapp",
+        "description": "Instance is using Whatsapp Web to Integrate WAChat pro with Whatsapp. Please create and connect the instance with your Whatsapp using QRCode Scan",
+        "empty": {
+            "title": "Belum Ada Balasan Otomatis",
+            "desc": "Silahkan klik tombol berikut ini untuk membuat pengaturan Balasan otomatis."
+        },
+        "button": {
+            "create": "Buat Balasan Otomatis"
+        },
+        "form": {
+            "title": "Form Balasan Otomatis",
+            "save": "Simpan Balasan Otomatis",
+            "operator": {
+                "label": "Kriteria Pesan Diterima",
+                "v1": "Sama dengan",
+                "v2": "Terdapat kata kriteria",
+                "v3": "Ucapan Selamat Datang"
+            },
+            "message": {
+                "label": "Pesan diterima",
+                "placeholder": "Masukkan kriteria pesan",
+                "placeholder2": "Masukkan kriteria lainnya",
+                "hint": "Bisa menggunakan beberapa pesan, pisahkan dengan koma (,)"
+            },
+            "content": {
+                "label": "Isi Balasan Otomatis"
+            },
+            "schedule": {
+                "1mo": "Senin",
+                "2tu": "Selasa",
+                "3we": "Rabu",
+                "4th": "Kamis",
+                "5fr": "Jumat",
+                "6sa": "Sabtu",
+                "7su": "Minggu",
+                "from": "Mulai",
+                "to": "Hingga"
+            },
+            "alert": {
+                "instance": {
+                    "header": "Sumber Error",
+                    "msg": "Silahkan pilih Instance / Nomor Whatsapp untuk melanjutkan"
+                },
+                "received": {
+                    "header": "Error Pesan Diterima",
+                    "msg": "Pesan diterima harus diisi agar aplikasi dapat menjalankan balasan otomatis sesuai dengan kriteria pesan diterima"
+                },
+                "operator": {
+                    "header": "Aturan Pesan Error",
+                    "msg": "Mohon pilih jenis Aturan Pesan Diterima yang sesuai dengan kebutuhan Anda"
+                },
+                "reply": {
+                    "header": "Isi Balasan Error",
+                    "msg": "Silahkan masukkan isi balasan otomatis sesuai dengan keinginan Anda"
+                },
+                "reply_to": {
+                    "header": "Target Error",
+                    "msg": "Mohon pilih target Auto-Reply untuk Individuals / Grup Whatsapp"
+                },
+                "success": {
+                    "header": "Berhasil",
+                    "msg": "Balasan Otomatis berhasil disimpan"
+                }
+            }
+        }
     }
 }

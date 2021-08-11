@@ -201,5 +201,74 @@
                 "stop": "Stop"
             }
         }
+    },
+
+    "ar": {
+        "title1": "Whatsapp Chat Professional Autoreply",
+        "title2": "Whatsapp Auto Reply",
+        "description": "Instance is using Whatsapp Web to Integrate WAChat pro with Whatsapp. Please create and connect the instance with your Whatsapp using QRCode Scan",
+        "empty": {
+            "title": "No Autoreply",
+            "desc": "Please Click button bellow to create new Autoreply Rules"
+        },
+        "button": {
+            "create": "Create New Autoreply"
+        },
+        "form": {
+            "title": "Autoreply Form",
+            "save": "Save Autoreply",
+            "operator": {
+                "label": "Received Message Rule",
+                "v1": "Equal",
+                "v2": "Contain",
+                "v3": "Welcome Message"
+            },
+            "message": {
+                "label": "Received Messages",
+                "placeholder": "Enter received message",
+                "placeholder2": "Enter another received message",
+                "hint": "Multiple received messages separated by comma"
+            },
+            "content": {
+                "label": "Reply message"
+            },
+            "schedule": {
+                "1mo": "Monday",
+                "2tu": "Tuesday",
+                "3we": "Wednesday",
+                "4th": "Thursday",
+                "5fr": "Friday",
+                "6sa": "Saturday",
+                "7su": "Sunday",
+                "from": "From",
+                "to": "To"
+            },
+            "alert": {
+                "instance": {
+                    "header": "Instance Error",
+                    "msg": "Please select an Instance to continue"
+                },
+                "received": {
+                    "header": "Error Received Message",
+                    "msg": "Please enter received messages to make WAChat Pro recognize the auto-reply command."
+                },
+                "operator": {
+                    "header": "Error Message Rule",
+                    "msg": "Please select a received message rule"
+                },
+                "reply": {
+                    "header": "Error Reply Message",
+                    "msg": "Please enter Reply Message"
+                },
+                "reply_to": {
+                    "header": "No Target Auto Reply",
+                    "msg": "Please select a target Auto reply to Individuals / Group"
+                },
+                "success": {
+                    "header": "Success",
+                    "msg": "Auto Reply saved successfully"
+                }
+            }
+        }
     }
 }
