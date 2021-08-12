@@ -1,4 +1,9 @@
 {
+
+    "button": {
+        "close": "Close"
+    },
+
     "login": {
         "title": "Authorization",
         "desc": "Please enter your username and password",
@@ -84,6 +89,30 @@
         "menu": {
             "toGroup": "Insert to Group Contacts",
             "sendMessage": "Send Whatsapp Message"
+        },
+        "side": {
+            "list": "Contact List",
+            "target": "Target Broadcast"
+        },
+        "button": {
+            "create": "Create new target"
+        },
+        "dialog": {
+            "target": {
+                "title": "Broadcast Target Form",
+                "selected": "Broadcast Target List"
+            },
+            "menu": {
+                "title": "Select Source",
+                "manual": "Insert Contact",
+                "contact": "From Contact List",
+                "import": "Import / Upload"
+            },
+            "manual": {
+                "nama": "Contact Name",
+                "nomor": "Whatsapp Number",
+                "add": "Add to target"
+            }
         }
     },
 

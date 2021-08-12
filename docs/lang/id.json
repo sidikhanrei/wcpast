@@ -1,4 +1,9 @@
 {
+
+    "button": {
+        "close": "Tutup"
+    },
+
     "login": {
         "title": "Otorisasi",
         "desc": "Silahkan Masukkan Username dan Password Anda",
@@ -84,6 +89,30 @@
         "menu": {
             "toGroup": "Tambahkan ke Group Kontak",
             "sendMessage": "Kirim Pesan Whatsapp"
+        },
+        "side": {
+            "list": "Daftar Kontak",
+            "target": "Target Broadcast"
+        },
+        "button": {
+            "create": "Buat target baru"
+        },
+        "dialog": {
+            "target": {
+                "title": "Form Target Broadcast",
+                "selected": "Target Broadcast"
+            },
+            "menu": {
+                "title": "Sumber Kontak",
+                "manual": "Manual Kontak",
+                "contact": "Dari Daftar Kontak",
+                "import": "Import / Upload"
+            },
+            "manual": {
+                "nama": "Nama Kontak",
+                "nomor": "Nomor WA Tujuan",
+                "add": "Tambahkan ke tujuan"
+            }
         }
     },
 
