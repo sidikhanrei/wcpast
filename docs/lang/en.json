@@ -98,6 +98,13 @@
             "create": "Create new target"
         },
         "dialog": {
+            "info": {
+                "selectContact": "* Double click to add contact into Broadcast Target List",
+                "removeSelected": "* Double click to remove contact from selected list"
+            },
+            "name": {
+                "title": "Name of your Broadcast Group"
+            },
             "target": {
                 "title": "Broadcast Target Form",
                 "selected": "Broadcast Target List"
@@ -106,13 +113,33 @@
                 "title": "Select Source",
                 "manual": "Insert Contact",
                 "contact": "From Contact List",
-                "import": "Import / Upload"
+                "import": "Import / Upload",
+                "bulk": "Bulk Contact Input"
             },
             "manual": {
                 "nama": "Contact Name",
                 "nomor": "Whatsapp Number",
                 "add": "Add to target"
-            }
+            },
+            "bulk": {
+                "label": "Please Insert Contacts",
+                "example": "Format Examples:"
+            },
+            "alert": {
+                "success": {
+                    "title": "Success",
+                    "msg": "Your broadcast target group has been saved successfully."
+                },
+                "delete": {
+                    "title": "Continue to Delete?",
+                    "msg": "Please confirm to delete this Broadcast Target List"
+                },
+                "deleteSuccess": {
+                    "title": "Delete Success",
+                    "msg": "Your broadcast target group has been deleted successfully."
+                }
+            },
+            "button": "Save Broadcast Target Group"
         }
     },
 
@@ -297,6 +324,28 @@
                     "header": "Success",
                     "msg": "Auto Reply saved successfully"
                 }
+            }
+        }
+    },
+
+    "wmu": {
+        "info": {
+            "notrun": "Instance is not running"
+        },
+        "alert": {
+            "notrun": {
+                "title": "Instance is not running",
+                "msg": "Please make sure the Instance is running to start Whatsapp Web Chat Multiuser"
+            },
+            "open": {
+                "title": "Start using Whatsapp Chat?",
+                "msg": "Are you sure want to Start Whatsapp Chat for this Instance?",
+                "ok": "Open Chat Client",
+                "cancel": "Cancel"
+            },
+            "invalid_pkg": {
+                "header": "Not Active!",
+                "msg": "Your package cannot Access Whatsapp Multi User. Please upgrade your package to Premium to Access Whatsapp Multi User"
             }
         }
     }

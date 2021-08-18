@@ -98,6 +98,13 @@
             "create": "Buat target baru"
         },
         "dialog": {
+            "info": {
+                "selectContact": "* Klik 2x untuk menambahkan kontak ke Daftar Target Broadcast",
+                "removeSelected": "* Klik 2x untuk menghapus kontak dari daftar broadcast terplih"
+            },
+            "name": {
+                "title": "Nama Target / Group Broadcast"
+            },
             "target": {
                 "title": "Form Target Broadcast",
                 "selected": "Target Broadcast"
@@ -106,13 +113,33 @@
                 "title": "Sumber Kontak",
                 "manual": "Manual Kontak",
                 "contact": "Dari Daftar Kontak",
-                "import": "Import / Upload"
+                "import": "Import / Upload",
+                "bulk": "Tambah Kontak Masal"
             },
             "manual": {
                 "nama": "Nama Kontak",
                 "nomor": "Nomor WA Tujuan",
                 "add": "Tambahkan ke tujuan"
-            }
+            },
+            "bulk": {
+                "label": "Silahkan masukkan kontak",
+                "example": "Contoh Format:"
+            },
+            "alert": {
+                "success": {
+                    "title": "Berhasil",
+                    "msg": "Data target broadcast / group telah tersimpan."
+                },
+                "delete": {
+                    "title": "Mohon Konfirmasi?",
+                    "msg": "Apakah Anda yakin ingin menghapus daftar broadcast?"
+                },
+                "deleteSuccess": {
+                    "title": "Data Terhapus",
+                    "msg": "Data target broadcast / group telah terhapus."
+                }
+            },
+            "button": "Simpan Group Contact"
         }
     },
 
