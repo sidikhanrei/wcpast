@@ -41,6 +41,22 @@
             }
         }
     },
+
+    "dashboard": {
+        "instance": {
+            "title": "Instances",
+            "desc": "Total Instances"
+        },
+        "contacts": {
+            "title": "Contacts",
+            "desc": "Available Contacts"
+        },
+        "ar": {
+            "title": "Auto Reply",
+            "desc": "Message rules",
+            "no": "No message rules available"
+        }
+    },
     
     "instance": {
         "title1": "Whatsapp Chat Professional Instances",

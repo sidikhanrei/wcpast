@@ -41,6 +41,22 @@
             }
         }
     },
+
+    "dashboard": {
+        "instance": {
+            "title": "Instance",
+            "desc": "Jumlah Instance"
+        },
+        "contacts": {
+            "title": "Kontak",
+            "desc": "Kontak Tersedia"
+        },
+        "ar": {
+            "title": "Balasan Otomatis",
+            "desc": "Kriteria pesan",
+            "no": "Belum ada kriteria pesan balasan otomatis"
+        }
+    },
     
     "instance": {
         "title1": "Whatsapp Chat Professional Instances",
