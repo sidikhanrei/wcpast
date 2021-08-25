@@ -57,6 +57,18 @@
             "no": "Belum ada kriteria pesan balasan otomatis"
         }
     },
+
+    "license": {
+        "title": "Beli Lisensi Instance",
+        "mo": "bln",
+        "btn": "Beli",
+        "pkg": "Paket",
+        "feature": "Fitur",
+        "selector": {
+            "tahunan": "Langganan Tahunan",
+            "bulanan": "Langganan Bulanan"
+        }
+    },
     
     "instance": {
         "title1": "Whatsapp Chat Professional Instances",

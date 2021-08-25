@@ -57,6 +57,18 @@
             "no": "No message rules available"
         }
     },
+
+    "license": {
+        "title": "Buy Instance License",
+        "mo": "mo",
+        "btn": "Buy",
+        "pkg": "Package",
+        "feature": "Features",
+        "selector": {
+            "tahunan": "Billed Yearly",
+            "bulanan": "Billed Monthly"
+        }
+    },
     
     "instance": {
         "title1": "Whatsapp Chat Professional Instances",
