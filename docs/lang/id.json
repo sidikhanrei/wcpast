@@ -216,6 +216,14 @@
             "content": {
                 "title": "Isi Pesan"
             },
+            "image": {
+                "imgurl_label": "Masukkan URL Sumber Gambar",
+                "upload": "Upload Gambar",
+                "url": "Gambar Dari Url",
+                "box1": "Drag &amp; Drop gambar disini",
+                "boxor": "- atau -",
+                "box2": "KLIK DISINI (PILIH Gambar)"
+            },
             "button": "Buat Broadcast",
             "button_simpan": "Simpan Broadcast",
             "button_send": "Kirim Broadcast",

@@ -216,6 +216,14 @@
             "content": {
                 "title": "Text Messages"
             },
+            "image": {
+                "imgurl_label": "Insert Image Url",
+                "upload": "Upload Image",
+                "url": "Image From Url",
+                "box1": "Drag &amp; Drop your image here",
+                "boxor": "- or -",
+                "box2": "CLICK HERE (Select Images)"
+            },
             "button": "Create Broadcast",
             "button_simpan": "Save Broadcast",
             "button_send": "Send Broadcast",
