@@ -109,6 +109,12 @@
                 "html": "Delete this unlicensed Instance?",
                 "ok": "Delete",
                 "cancel": "Cancel"
+            },
+            "force": {
+                "title": "Force Start?",
+                "html": "If you can't start Instance Normaly, you can use Force Start to start immediately",
+                "ok": "Force Start",
+                "cancel": "Cancel"
             }
         }
     },
@@ -383,6 +389,7 @@
                 "header": "Not Active!",
                 "msg": "Your package cannot Access Whatsapp Multi User. Please upgrade your package to Premium to Access Whatsapp Multi User"
             }
-        }
+        },
+        "type": "Type a message"
     }
 }

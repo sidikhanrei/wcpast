@@ -109,6 +109,12 @@
                 "html": "Apakah Anda yakin ingin menghapus Instance Ini?",
                 "ok": "Hapus",
                 "cancel": "Batalkan"
+            },
+            "force": {
+                "title": "Force Start?",
+                "html": "Jika Instance tidak berjalan setelah beberapa waktu, Anda dapat menggunakan fitur ini untuk memulai ulang Instance.",
+                "ok": "Force Start",
+                "cancel": "Batalkan"
             }
         }
     },
@@ -362,5 +368,28 @@
                 }
             }
         }
+    },
+
+    "wmu": {
+        "info": {
+            "notrun": "Instance belum dijalankan"
+        },
+        "alert": {
+            "notrun": {
+                "title": "Instance belum dijalankan",
+                "msg": "Pastikan Instance sudah berjalan dan aktif untuk dapat menggunakan Whatsapp Multiuser."
+            },
+            "open": {
+                "title": "Buka Whatsapp Chat?",
+                "msg": "Apakah Anda ingin membuka Whatsapp untuk instance ini?",
+                "ok": "Buka Chat Client",
+                "cancel": "Batal"
+            },
+            "invalid_pkg": {
+                "header": "Tidak Aktif!",
+                "msg": "Lisensi yang Anda gunakan tidak dapat menggunakan fitur Whatsapp Multi User. Silahkan upgrade lisensi Anda jika ingin menggunakan fitur ini."
+            }
+        },
+        "type": "Ketik pesan"
     }
 }
